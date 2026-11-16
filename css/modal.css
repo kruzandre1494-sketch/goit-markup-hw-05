@@ -33,8 +33,8 @@
     0 1px 1px 0 rgba(0, 0, 0, 0.14),
     0 1px 3px 0 rgba(0, 0, 0, 0.12),
     0 2px 1px 0 rgba(0, 0, 0, 0.2);
-  transition: 250ms ease 0ms;
-  transition-property: transform, opacity;
+  transition: 250ms ease;
+  transition-property: opacity;
 }
 .backdrop.is-open .modal {
   transform: translatex(-50%) translatey(-50%);
@@ -136,6 +136,9 @@
   transition: 250ms ease;
   transition-property: border-color;
 }
+.modal-form-field .modal-form-agreement {
+  margin-bottom: 16px;
+}
 .modal-form-comment:focus {
   border-color: #4d5ae5;
 }
@@ -186,7 +189,7 @@
   opacity: 1;
 }
 .modal-form-link {
-  line-height: 1.33333;
+  line-height: 1.16667;
   text-decoration: underline;
   text-decoration-skip-ink: none;
   color: #4d5ae5;
