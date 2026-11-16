@@ -8,7 +8,7 @@
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
-  transition: 250 ms ease 250ms;
+  transition: 250ms ease;
   transition-property: opacity, visibility;
 }
 .backdrop.is-open {
@@ -23,7 +23,8 @@
   left: 50%;
   transform: translatex(-50%) translatey(-50%);
   opacity: 0;
-  max-width: 100%;
+  width: 408px;
+  height: auto;
   min-height: 582px;
   padding: 72px 24px 24px;
   border-radius: 4px;
@@ -32,7 +33,7 @@
     0 1px 1px 0 rgba(0, 0, 0, 0.14),
     0 1px 3px 0 rgba(0, 0, 0, 0.12),
     0 2px 1px 0 rgba(0, 0, 0, 0.2);
-  transition: 250 ms ease 0ms;
+  transition: 250ms ease 0ms;
   transition-property: transform, opacity;
 }
 .backdrop.is-open .modal {
@@ -82,7 +83,7 @@
 .modal-form {
 }
 .modal-form-field {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 .modal-form-label {
   display: block;
@@ -142,7 +143,7 @@
   color: rgba(46, 47, 66, 0.4);
 }
 .modal-form-agreement {
-  margin-bottom: 54px;
+  margin-bottom: 24px;
 }
 .modal-form-policy {
   font-size: 12px;
@@ -154,10 +155,10 @@
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  width: 14px;
-  height: 14px;
+  width: 16px;
+  height: 16px;
   margin-right: 8px;
-  border: 0.88px solid rgba(46, 47, 66, 0.4);
+  border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
   transition: 250ms ease;
   cursor: pointer;
