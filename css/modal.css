@@ -136,7 +136,7 @@
   transition: 250ms ease;
   transition-property: border-color;
 }
-.modal-form-field .modal-form-agreement {
+.modal-form-field--comment {
   margin-bottom: 16px;
 }
 .modal-form-comment:focus {
@@ -189,7 +189,9 @@
   opacity: 1;
 }
 .modal-form-link {
+  font-size: 12px;
   line-height: 1.16667;
+  letter-spacing: 0.04em;
   text-decoration: underline;
   text-decoration-skip-ink: none;
   color: #4d5ae5;
